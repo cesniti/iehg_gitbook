@@ -4,8 +4,6 @@ description: Inland navigation related Papers
 
 # Papers
 
-
-
 All official papers which are mentioned as references in the Encoding Guide and Feature Catalogue are published at following web-pages:
 
 * CEMT - Classification of European inland waterways [UNECE TRANS/SC.3/131 \(resolution No. 30\)](http://www.unece.org/trans/doc/finaldocs/sc3/TRANS-SC3-131e.pdf)
@@ -22,19 +20,19 @@ The IEHG has agreed upon a standardized data exchange format for detailed water 
 
 IEHG has also developed "Recommended validation checks for Inland ENCs".
 
-### Recommended validation checks for Inland ENCs 1.1 \(based on S-58 Edition 4.2 and Edition 2.1 of Inland ENCs\) :
+## Recommended validation checks for Inland ENCs 1.1 \(based on S-58 Edition 4.2 and Edition 2.1 of Inland ENCs\) :
 
 {% file src=".gitbook/assets/recommended\_inland\_enc\_validation\_checks\_1\_1.pdf" caption="Recommended validation checks for Inland ENCs 1.1 \(based on S-58 Edition 4.2 and Edition 2.1 of Inland ENCs\)" %}
 
-### Recommended validation checks for Inland ENCs 2.3 corr1 \(based on S-58 Edition 4.2 and Edition 2.3 of inland ENCs\) 2013-10-16 \(pdf, 964 kB\)
+## Recommended validation checks for Inland ENCs 2.3 corr1 \(based on S-58 Edition 4.2 and Edition 2.3 of inland ENCs\) 2013-10-16 \(pdf, 964 kB\)
 
 {% file src=".gitbook/assets/recommended\_inland\_enc\_validation\_checks\_2\_3corr1.pdf" caption=" ​Recommended validation checks for Inland ENCs 2.3 corr1 \(based on S-58 Edition 4.2 and Edition 2.3 of inland ENCs\)" %}
 
-### Preliminary Version of the Recommended validation checks for Inland ENCs 2.4 \(based on S-58 Edition 4.2 and Edition 2.4 of Inland ENCs\). This Version will get official Status after implementation.
+## Preliminary Version of the Recommended validation checks for Inland ENCs 2.4 \(based on S-58 Edition 4.2 and Edition 2.4 of Inland ENCs\). This Version will get official Status after implementation.
 
 {% file src=".gitbook/assets/recommended-inland-enc-validation-checks\_2\_4\_0.doc" caption=" ​Preliminary Version of the Recommended validation checks for Inland ENCs 2.4 \(based on S-58 Edition 4.2 and Edition 2.4 of Inland ENCs\). This Version will get official Status after implementation." %}
 
-### The following Excel sheet is providing an overview of the minimum content of Inland ENCs. It has been the basis for version 2.3.5 of the Encoding Guide.
+## The following Excel sheet is providing an overview of the minimum content of Inland ENCs. It has been the basis for version 2.3.5 of the Encoding Guide.
 
 {% file src=".gitbook/assets/ienc\_min\_content\_v2\_4 \(1\).xls" %}
 
@@ -46,11 +44,7 @@ Recommendations of the European project IRIS II \(Implementation of River Inform
 
 {% file src=".gitbook/assets/evaluation\_ienc\_usages\_rws.pdf" caption="Evaluation and recommendations regarding the use of SCAMIN and Usages in Inland ENCs \(pdf, 7 MB\)" %}
 
-
-
 Ivica Ruzic and Jadranka Pecar-Ilic from the Rudjer Boskovic Institute in Zagreb, Croatia
 
 {% file src=".gitbook/assets/proposal\_for\_extension\_of\_cevni.zip" %}
-
-
 

@@ -8,7 +8,7 @@ description: Meeting minutes IEHG meeting XIV
 
 {% file src="../../.gitbook/assets/iehg\_xiv\_minutes.pdf" %}
 
-## Meeting documents 
+## Meeting documents
 
 {% file src="../../.gitbook/assets/s101\_data-classification-and-encoding-guide\_final-0.0.2-clean.pdf" %}
 

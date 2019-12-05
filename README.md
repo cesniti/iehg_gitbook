@@ -1,6 +1,6 @@
 # Home
 
-### Welcome to the Inland ECDIS page of the Open ECDIS Forum!
+## Welcome to the Inland ECDIS page of the Open ECDIS Forum!
 
 ![](http://ienc.openecdis.org/images/iehg.gif)
 
