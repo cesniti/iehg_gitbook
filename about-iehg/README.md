@@ -4,3 +4,4 @@ The Inland ENC Harmonization Group \(IEHG\) was formed in 2003 by North America 
 
 The goal of the IEHG is to agree upon specifications for Inland ENCs that are suitable for all known inland ENC data requirements for safe and efficient navigation for European, North and South American and Russian Federation inland waterways. However, it is intended that this standard meet the basic needs for Inland ENC applications, worldwide. As such, the Inland ENC standard is flexible enough to accommodate additional inland waterway requirements in other regions of the world. IEHG is recognized as a Non-Governmental International Organization \(NGIO\) by the International Hydrographic Organisation \(IHO\). 
 
+
