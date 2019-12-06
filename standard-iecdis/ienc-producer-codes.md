@@ -1,8 +1,6 @@
-# IENC Producer Codes
+# IENC Producer and Waterway Codes
 
 
 
-{% file src="../.gitbook/assets/codes\_for\_waterways.pdf" caption="IENC Produced codes 2.0 - Code for waterways" %}
-
-[IENC Producer codes](https://ienc.gitbook.io/ienc-main/status-of-codes-for-producers-and-waterways)
+The information about the status of the producer codes and waterway codes is independent of the editions of the standard. Even recently assigned new codes can be used for older editions of the standard. [Click here to go to the Status of IENC Producer and Waterway Codes](https://ienc.gitbook.io/ienc-main/status-of-codes-for-producers-and-waterways)
 
