@@ -23,7 +23,7 @@
 
 ## Standard Inland ECDIS <a id="standard-iecdis"></a>
 
-* [ECDIS Standard Edition 2.0](standard-iecdis/standard-2.0.md)
+* [Inland ECDIS Standard Edition 2.0](standard-iecdis/standard-2.0.md)
 * [IENC Product Specification 2.0](standard-iecdis/ienc-product-specification-2.0/README.md)
   * [IENC Feature Catalogue 2.0](standard-iecdis/ienc-product-specification-2.0/ienc-feature-catalogue-2.0.md)
   * [IENC Encoding Guide 1.2.2](standard-iecdis/ienc-product-specification-2.0/ienc-encoding-guide-1.2.2.md)
