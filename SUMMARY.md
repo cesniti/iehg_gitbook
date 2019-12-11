@@ -1,25 +1,6 @@
 # Table of contents
 
 * [Home](README.md)
-* [About IEHG](about-iehg/README.md)
-  * [Presentations](about-iehg/presentation.md)
-  * [Terms of reference and members](about-iehg/terms-of-reference-and-members.md)
-  * [Meeting Minutes](about-iehg/meeting-minutes-1/README.md)
-    * [14. IEHG meeting \(2017\) Niteroi - Brazil](about-iehg/meeting-minutes-1/meeting-minutes.md)
-    * [13. IEHG meeting \(2015\) Nanjing -China](about-iehg/meeting-minutes-1/13.-iehg-meeting-october-13th-15th-2015.md)
-    * [12. IEHG meeting \(2014\) Berlin - Germany](about-iehg/meeting-minutes-1/12.-iehg-meeting-berlin.md)
-    * [11. IEHG meeting \(2013\) Secaucus USA](about-iehg/meeting-minutes-1/11.-iehg-meeting-secaucus.md)
-    * [10. IEHG meeting \(2012\) Iquitos - Peru](about-iehg/meeting-minutes-1/10.-iehg-meeting-iquitos-peru.md)
-    * [9. IEHG meeting \(2011\) Chongqing, Peoples Republic of China](about-iehg/meeting-minutes-1/9.-iehg-meeting-2007-chongqing-peoples-republic-of-china.md)
-    * [8. IEHG meeting \(2010\) Saint Petersbourg - Russia](about-iehg/meeting-minutes-1/8.-iehg-meeting-2005-saint-petersbourg.md)
-    * [Task Force Quality Standards \(2009-2010\)](about-iehg/meeting-minutes-1/task-force-quality-standards-2009.md)
-    * [7. IEHG Meeting \(2009\) Vienna - Austria](about-iehg/meeting-minutes-1/6.-iehg-meeting-2008-new-hampshire-usa.md)
-    * [6. IEHG meeting \(2008\) New Hampshire - USA](about-iehg/meeting-minutes-1/7.-iehg-meeting-2009-austria.md)
-    * [5. IEHG Meeting \(2007\) Niteroi - Brazil](about-iehg/meeting-minutes-1/5.-iehg-meeting-2007-niteroi-brazil.md)
-    * [4. IEHG Meeting \(2006\) Saint Petersbourg - Russia](about-iehg/meeting-minutes-1/4.-iehg-meeting-2006-saint-petersbourg-russia.md)
-  * [Change requests](about-iehg/change-requests.md)
-* [Links](links.md)
-* [Papers](papers.md)
 
 ## Standard Inland ECDIS <a id="standard-iecdis"></a>
 
