@@ -13,7 +13,9 @@ The Inland ECDIS Presentation Library provides five look-up tables:
 * plain area boundary symbols
 * symbolized area boundary symbols
 
-{% file src="../../../.gitbook/assets/2.1.-look\_up\_tables\_20.zip" caption="Look-up tables \(zip-file, 11KB\)" %}
+{% file src="../../../.gitbook/assets/2.1.-look\_up\_tables\_20.zip" caption="Look-up tables Ed.2.0 \(zip, 11 kB\)" %}
+
+
 
 
 
