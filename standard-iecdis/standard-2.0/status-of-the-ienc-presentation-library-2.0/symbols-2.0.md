@@ -4,3 +4,7 @@ Symbols can be defined in vector format or in raster format. Symbols which will 
 
 The Inland ECDIS Symbols are defined as raster symbols except those which have to be rotated. The format is according to S-52.
 
+{% file src="../../../.gitbook/assets/2.2.-symbols\_20.zip" caption="Symbols 2.0 \(zip-file, 152KB\)" %}
+
+
+

@@ -11,5 +11,7 @@ For all object classes, attributes, and attribute values that are used in conjun
 
 The Inland ENC Encoding Guide is applicable in North and South America, Russia and Europe. It is intended, that the IENC Encoding Guide meets the basic needs for Inland ENC applications worldwide.
 
-{% file src="../../../.gitbook/assets/ienc\_eg\_122.pdf" caption="Encoding Guide Ed.1.2.2 2007-11 \(pdf, 16 Mb\)" %}
+{% file src="../../../.gitbook/assets/ienc\_eg\_122.pdf" caption="Encoding Guide Ed.1.2.2 \(pdf, 16 Mb\)" %}
+
+
 
