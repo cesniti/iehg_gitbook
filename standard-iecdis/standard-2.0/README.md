@@ -12,18 +12,7 @@ The Inland ENC Harmonization Group \(IEHG\) is only dealing with the standardiza
 
 The Appendix consists of:
 
-{% page-ref page="ienc-product-specification-2.0/" %}
-
-                Product Specification for Inland ENCs \(as referred to in Section 2 of the Inland ECDIS Standard\)  
-                including edition 1.2.2 of the Encoding Guide for Inland ENCs   
-                \(for Europe, Russia, North and South America\)
-
-{% embed url="https://ienc.gitbook.io/ienc-main/status-of-codes-for-producers-and-waterways" %}
-
-               \(only for Europe and Russia\)
-
-{% page-ref page="status-of-the-ienc-presentation-library-2.0/" %}
-
-               Presentation Library \(as referred to in Section 3 of the Inland ECDIS Standard\)  
-               \(only for Europe and Russia\)
+* [Edition 2.0 of the Product Specification for Inland ENCs \(to Section 2\) including edition 1.3.1 of the Encoding Guide](ienc-product-specification-2.0/) \(For Europe, Russia, North and South America\)
+* [Status of Codes for Producers and Waterways \(to Section 2a\) ](https://ienc.gitbook.io/ienc-main/status-of-codes-for-producers-and-waterways)\(only for Europe and Russia\)
+* [Edition 2.0 of the Presentation Library \(to Section 3\)](status-of-the-ienc-presentation-library-2.0/) \(only for Europe and Russia\)
 
