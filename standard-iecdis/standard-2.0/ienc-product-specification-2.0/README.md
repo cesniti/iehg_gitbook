@@ -16,6 +16,8 @@ An XML editor for the production of the external xml-files that are mentioned in
 The username and password can be obtained by e-mail from  
 ienc\(a\)viadonau.org
 
-Attention:  
-The attributes 18020 lc\_lg1, 18018 lc\_bm1 and 18019 lc\_bm2 have been deleted in edition 2.3 because they have never been used by chart producers. The numerical codes have been reused for other attributes in edition 2.4. IEHG advises application builders who are using combined catalogues covering several Editions to delete the three old attributes from their catalogues.
+**Attention**:  
+The attributes 18020 lc\_lg1, 18018 lc\_bm1 and 18019 lc\_bm2 have been deleted in edition 2.3 because they have never been used by chart producers. The numerical codes have been reused for other attributes in edition 2.4. IEHG advises application builders who are using combined Feature Catalogues covering several Editions to delete the three old attributes from their catalogues.
+
+
 
