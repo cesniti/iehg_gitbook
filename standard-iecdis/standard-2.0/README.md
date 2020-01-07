@@ -6,7 +6,7 @@ description: European Inland ECDIS Standard 2.0
 
 This side contains the Appendix of the European **Inland ECDIS Standard, Edition 2.0**. 
 
-Edition 2.0 is an older version of the recommendations and regulations of the Central Commission for Navigation on the Rhine, the Economic Commission for Europe of the United Nations and the Danube Commission. The Inland ECDIS standard is maintained by the European Inland ECDIS expert group. It does not only contain a Product Specification for Inland ENCs, but also a Performance Standard, a Presentation Standard and Operational and Performance Requirements for Inland ECDIS applications. 
+Edition 2.0 is the current version of the recommendations and regulations of the Central Commission for Navigation on the Rhine, the Economic Commission for Europe of the United Nations, the Danube Commission and the European Union \(Publication in progress\). The Inland ECDIS standard is maintained by the European Inland ECDIS expert group. It does not only contain a Product Specification for Inland ENCs, but also a Performance Standard, a Presentation Standard and Operational and Performance Requirements for Inland ECDIS applications. 
 
 The Inland ENC Harmonization Group \(IEHG\) is only dealing with the standardization of Inland ENCs. It is responsible for the Product Specification including the Feature Catalogue and the Encoding Guide. 
 
