@@ -1,6 +1,10 @@
+---
+description: Welcome to the Inland ECDIS page of the Open ECDIS Forum!
+---
+
 # Home
 
-### Welcome to the Inland ECDIS page of the Open ECDIS Forum!
+You can go directly to the [IEHG homepage](https://ienc.gitbook.io/ienc/), the [discussion forum of IEHG](https://iehg.centralus.cloudapp.azure.com/login) or read more about IEHG by choosing one of the topics in the menu.
 
 ![](http://ienc.openecdis.org/images/iehg.gif)
 
