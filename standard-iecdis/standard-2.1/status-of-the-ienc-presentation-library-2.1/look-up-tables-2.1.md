@@ -17,7 +17,5 @@ The Inland ECDIS Presentation Library provides five look-up tables:
 
 {% file src="../../../.gitbook/assets/ienc\_test\_cells\_2\_1.zip" caption="Test cell for Edition 2.1 \(zip, 2 MB\)" %}
 
-{% file src="../../../.gitbook/assets/ienc\_with\_tisdge.zip" caption="Test cell with time schedules \(zip, 64 kB\)" %}
-
 {% file src="../../../.gitbook/assets/ienc\_test\_cells.pdf" caption="Introduction to the available test files" %}
 
