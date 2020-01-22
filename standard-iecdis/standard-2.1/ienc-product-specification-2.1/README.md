@@ -12,7 +12,9 @@ The username and password can be obtained by e-mail from ienc\(a\)viadonau.org
 The attributes 18020 lc\_lg1, 18018 lc\_bm1 and 18019 lc\_bm2 have been deleted in edition 2.3 because they have never been used by chart producers. The numerical codes have been reused for other attributes in edition 2.4. IEHG advises application builders who are using combined Feature Catalogues covering several Editions to delete the three old attributes from their catalogues.
 {% endhint %}
 
-{% file src="../../../.gitbook/assets/corrections\_to\_product\_specification\_2\_1.pdf" caption="Corrections to Product Specifications Ed.2.1 \(pd, 4 kB\)" %}
+{% file src="../../../.gitbook/assets/ies21\_section2\_prodspec.pdf" caption="Edition 2.1 of the Product Specification for Inland ENCs" %}
 
-{% file src="../../../.gitbook/assets/recommended\_inland\_enc\_validation\_checks\_1\_0.pdf" caption="Recommended Validation Check Ed.1.0 \(pdf, 1023 kB\)" %}
+{% file src="../../../.gitbook/assets/corrections\_to\_product\_specification\_2\_1.pdf" caption="Corrections to Product Specifications Ed.2.1" %}
+
+{% file src="../../../.gitbook/assets/recommended\_inland\_enc\_validation\_checks\_1\_0.pdf" caption="Recommended Validation Check Ed.1.0" %}
 
