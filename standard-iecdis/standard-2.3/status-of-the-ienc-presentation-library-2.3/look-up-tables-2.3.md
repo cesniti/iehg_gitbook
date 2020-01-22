@@ -1,4 +1,4 @@
-# Look-up Tables 2.1
+# Look-up Tables 2.3
 
 Look-up tables link feature descriptions from the IENC to the appropriate symbology instructions depending on whether:
 
@@ -13,11 +13,5 @@ The Inland ECDIS Presentation Library provides five look-up tables:
 * plain area boundary symbols
 * symbolized area boundary symbols
 
-{% file src="../../../.gitbook/assets/ienc\_lt\_21.zip" caption="Look-up tables Ed.2.1 \(zip, 11 kB\)" %}
-
-{% file src="../../../.gitbook/assets/ienc\_test\_cells\_2\_1.zip" caption="Test cell for Edition 2.1 \(zip, 2 MB\)" %}
-
-{% file src="../../../.gitbook/assets/ienc\_with\_tisdge.zip" caption="Test Cell with time schedules \(zip, 2 MB\)" %}
-
-{% file src="../../../.gitbook/assets/ienc\_test\_cells.pdf" caption="Introduction to the available test files" %}
+{% file src="../../../.gitbook/assets/ienc23\_lookuptables.zip" caption="Look-up tables Ed 2.3 \(zip\)" %}
 
