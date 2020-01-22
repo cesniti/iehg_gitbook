@@ -12,11 +12,15 @@ The username and password can be obtained by e-mail from ienc\(a\)viadonau.org
 The first versions of the Feature Catalogue which have been published had some errors. A first correction has been produced on 2011-06-07. A second correction has been produced 2013-05-24. Please do not use edition 2.3 of the Feature Catalogue with earlier issue dates anymore.
 {% endhint %}
 
-{% hint style="warning" %}
+{% hint style="info" %}
 The attributes 18020 lc\_lg1, 18018 lc\_bm1 and 18019 lc\_bm2 have been deleted in edition 2.3 because they have never been used by chart producers. The numerical codes have been reused for other attributes in edition 2.4. IEHG advises application builders who are using combined Feature Catalogues covering several Editions to delete the three old attributes from their catalogues.
 {% endhint %}
 
-{% file src="../../../.gitbook/assets/corrections\_to\_product\_specification\_2\_1.pdf" caption="Corrections to Product Specifications Ed.2.1 \(pd, 4 kB\)" %}
+{% file src="../../../.gitbook/assets/prodspec\_ienc\_2\_3.pdf" caption="Product Specification for Inland ENCs Ed 2.3 \(pdf\)" %}
 
-{% file src="../../../.gitbook/assets/recommended\_inland\_enc\_validation\_checks\_1\_0.pdf" caption="Recommended Validation Check Ed.1.0 \(pdf, 1023 kB\)" %}
+{% file src="../../../.gitbook/assets/prodspec\_ienc\_2\_3\_trackchange.pdf" caption="Track changes version of the Product Specification \(pdf\)" %}
+
+{% file src="../../../.gitbook/assets/recommended\_inland\_enc\_validation\_checks\_2\_3corr1.pdf" caption="Recommended Validation Checks Ed 2.3 corr1" %}
+
+
 

@@ -6,7 +6,7 @@
 
 * [Inland ECDIS Standard Edition 2.3](standard-iecdis/standard-2.3/README.md)
   * [IENC Product Specification 2.3](standard-iecdis/standard-2.3/ienc-product-specification-2.3/README.md)
-    * [IENC Feature Catalogue 2.1](standard-iecdis/standard-2.3/ienc-product-specification-2.3/ienc-feature-catalogue-2.1.md)
+    * [IENC Feature Catalogue 2.3](standard-iecdis/standard-2.3/ienc-product-specification-2.3/ienc-feature-catalogue-2.3.md)
     * [IENC Encoding Guide 1.3.1](standard-iecdis/standard-2.3/ienc-product-specification-2.3/ienc-encoding-guide-1.3.1.md)
   * [IENC Producer and Waterway Codes](standard-iecdis/standard-2.3/ienc-producer-codes.md)
   * [IENC Presentation Library 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.1/README.md)
