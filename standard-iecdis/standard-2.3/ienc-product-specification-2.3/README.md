@@ -5,8 +5,7 @@ This page conatins the edition 2.3 of the Product Specification for Inland ENCs,
 * the Inland ENC Feature Catalogue and
 * the rules described in the Inland ENC Encoding Guide
 
-The Inland ENC Product Specification has been adopted by the Inland ENC Harmonization Group \(IEHG\) and is applicable in North and South America, Russia and Europe. It is intended, that the Product Specification meets the basic needs for Inland ENC applications worldwide. An XML editor for the production of the external xml-files that are mentioned in the Encoding Guide is available at [facility\_editor](http://ienc.openecdis.org/facility_editor/)  
-The username and password can be obtained by e-mail from ienc\(a\)viadonau.org
+The Inland ENC Product Specification has been adopted by the Inland ENC Harmonization Group \(IEHG\) and is applicable in North and South America, Russia and Europe. It is intended, that the Product Specification meets the basic needs for Inland ENC applications worldwide. 
 
 {% hint style="warning" %}
 The first versions of the Feature Catalogue which have been published had some errors. A first correction has been produced on 2011-06-07. A second correction has been produced 2013-05-24. Please do not use edition 2.3 of the Feature Catalogue with earlier issue dates anymore.
