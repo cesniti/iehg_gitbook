@@ -18,7 +18,8 @@ The annex of the Encoding Guide is containing the description of a standardized 
 {% file src="../../../.gitbook/assets/facility\_2.0.xsd" caption="XSD of the external facility files Ed 2.0" %}
 
 An XML editor for the production of the external xml-files that are mentioned in the Encoding Guide is available at [facility\_editor](http://ienc.openecdis.org/facility_editor/)  
-The username and password can be obtained by e-mail from ienc\(a\)viadonau.org
+The username and password can be obtained by e-mail from ienc\(a\)viadonau.org  
+Please note that the editor uses the latest edition of the XSD.
 
 
 
