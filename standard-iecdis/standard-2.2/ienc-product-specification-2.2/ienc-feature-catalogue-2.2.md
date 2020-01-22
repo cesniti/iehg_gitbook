@@ -14,11 +14,9 @@ In addition the catalogue contains feature-attribute bindings specific to IENCs.
 
 The Inland ENC Feature Catalogue has been adopted by the Inland ENC Harmonization Group \(IEHG\) and is applicable in North and South America, Russia and Europe. The main target group of edition 2.2 has been South America. Other regions are mainly using older or newer editions. It is intended, that the Feature Catalogue meets the basic needs for Inland ENC applications worldwide.
 
-{% file src="../../../.gitbook/assets/ienc\_fc\_21.pdf" caption="Feature Catalogue Ed.2.1 \(pdf, 2 MB\)" %}
+{% file src="../../../.gitbook/assets/ienc\_fc\_22.pdf" caption="Feature Catalogue for Inland ENCs Ed 2.2 \(pdf\)" %}
 
-{% file src="../../../.gitbook/assets/ienc\_fc\_21.xml" caption="Feature Catalogue Ed.2.1 \(xml, 603 kB\)" %}
-
-{% file src="../../../.gitbook/assets/ienc\_fc\_21.xsd" caption="Feature Catalogue Ed.2.1 \(xsd, 9 kB\)" %}
+{% file src="../../../.gitbook/assets/ienc\_fc\_22.xml" caption="Feature Catalogue for Inland ENCs Ed 2.2 \(xml\)" %}
 
 
 
