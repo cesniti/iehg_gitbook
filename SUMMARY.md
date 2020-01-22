@@ -15,4 +15,5 @@
     * [Conditional symbology procedures 2.4](standard-iecdis/standard-2.4/status-of-the-ienc-presentation-library-2.4/conditional-symbology-procedures-2.4.md)
   * [Product Specification for bathymetric Inland ENCs](standard-iecdis/standard-2.4/bienc-prodspec-24/README.md)
     * [bIENC Feature Catalogue 1.0](standard-iecdis/standard-2.4/bienc-prodspec-24/bienc-fc-10.md)
+* [S-401, the future Product Specification for Inland ENCs](s-401-the-future-product-specification-for-inland-encs.md)
 
