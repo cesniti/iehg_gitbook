@@ -15,7 +15,7 @@ The Inland ENC Encoding Guide is applicable in North and South America, Russia a
 
 The annex of the Encoding Guide is containing the description of a standardized machine readable facility file for the provision of contact information and operating hours of infrastructure.
 
-{% file src="../../../.gitbook/assets/facility\_1.0.xsd" caption="XSD of the external facility files Ed 1.0" %}
+{% file src="../../../.gitbook/assets/facility\_1.0 \(1\).xsd" caption="XSD of the external facility files Ed 1.0" %}
 
 An XML editor for the production of the external xml-files that are mentioned in the Encoding Guide is available at [facility\_editor](http://ienc.openecdis.org/facility_editor/)  
 The username and password can be obtained by e-mail from ienc\(a\)viadonau.org  
