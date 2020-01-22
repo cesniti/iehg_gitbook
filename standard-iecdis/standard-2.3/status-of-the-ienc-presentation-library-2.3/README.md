@@ -20,6 +20,12 @@ fnctnm5 &gt; NOTMRK03
 
 {% file src="../../../.gitbook/assets/correction\_preslib.pdf" caption="Correction to PresLib Ed 2.3 \(pdf\)" %}
 
+{% file src="../../../.gitbook/assets/enc\_root.zip" caption="Test cell for edition 2.3 \(zip\)" %}
+
+{% file src="../../../.gitbook/assets/ienc23\_legend104\_setup \(1\).zip" caption="Small software to display all Inland ECDIS symbols \(zip\)" %}
+
+{% file src="../../../.gitbook/assets/vcredist\_x86.zip" caption="Redistributable that has to be installed if IENC Legend does not run \(zip\)" %}
+
 
 
 
