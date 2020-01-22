@@ -1,0 +1,1106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Catalogue xmlns="http://ienc.openecdis.org" xsi:schemaLocation="http://ienc.openecdis.org bENC_FC_1_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <Header edition="1.0" title="bENC Feature Catalogue" product="bENC" language="en" date="2014-12-04" />
+  <Scope>Features, attributes, enumerations and feature-attribute bindings for the use in combination with Inland ENCs </Scope>
+  <Source name="bENC Encoding Guide for Inland ENCs" edition="1.0" />
+  <Authority token="IEHG" >
+    <Name>InlandENC Harmonization Group</Name>
+  </Authority>
+  <DataDictionaries>
+    <DataDictionary token="HYDRO" publishWeb="http://registry.iho.int" owner="IHO" name="HYDRO Data Dictionary" />
+    <DataDictionary token="IENC" publishWeb="http://registry.iho.int" owner="IEHG" name="IENC Data Dictionary" />
+  </DataDictionaries>
+  <Attributes>
+    <Attribute useType="F" valueType="E" acronym="CATCOV" code="18">
+      <DataDictionaryReference token="HYDRO" code="18" dateAccepted="2000-11-01">
+        <Name>Category of coverage</Name>
+        <Definition></Definition>
+      </DataDictionaryReference>
+      <Enumeration value="1">
+        <DataDictionaryReference token="HYDRO" code="CATCOV_1" dateAccepted="2000-11-01">
+          <Name>coverage available</Name>
+          <Definition>continuous coverage of spatial objects is available within this area.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2">
+        <DataDictionaryReference token="HYDRO" code="CATCOV_2" dateAccepted="2000-11-01">
+          <Name>no coverage available</Name>
+          <Definition>an area containing no spatial objects.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="E" acronym="CATZOC" code="72">
+      <DataDictionaryReference token="HYDRO" code="72" dateAccepted="2000-11-01">
+        <Name>Category of zone of confidence in data</Name>
+        <Definition></Definition>
+        <Remark>The CATZOC attribute definitions are currently the subject of review and the results of this review will be promulgated as soon as possible in the S-57 Corrections Document. See the CATZOC Table in S-57 for the full table layout.</Remark>
+      </DataDictionaryReference>
+      <Enumeration value="1">
+        <DataDictionaryReference token="HYDRO" code="CATZOC_1" dateAccepted="2000-11-01">
+          <Name>zone of confidence A1</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2">
+        <DataDictionaryReference token="HYDRO" code="CATZOC_2" dateAccepted="2000-11-01">
+          <Name>zone of confidence A2</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3">
+        <DataDictionaryReference token="HYDRO" code="CATZOC_3" dateAccepted="2000-11-01">
+          <Name>zone of confidence B</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4">
+        <DataDictionaryReference token="HYDRO" code="CATZOC_4" dateAccepted="2000-11-01">
+          <Name>zone of confidence C</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5">
+        <DataDictionaryReference token="HYDRO" code="CATZOC_5" dateAccepted="2000-11-01">
+          <Name>zone of confidence D</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6">
+        <DataDictionaryReference token="HYDRO" code="CATZOC_6" dateAccepted="2000-11-01">
+          <Name>zone of confidence U (data not assessed)</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="I" acronym="CSCALE" code="80" >
+      <DataDictionaryReference token="HYDRO" code="80" dateAccepted="2000-11-01" >
+        <Name>Compilation scale</Name>
+        <Definition>The scale at which the data was originally compiled.</Definition>        
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="F" acronym="DRVAL1" code="87">
+      <DataDictionaryReference token="HYDRO" code="87" dateAccepted="2000-11-01">
+        <Name>Depth range value 1</Name>
+        <Definition>The minimum (shoalest) value of a depth range.</Definition>
+        <Remark>Where the area dries, the value is negative. The unit of measure is defined in the DUNI subfield of the DSPM record or in the DUNITS attribute of the M_UNIT meta object class, e.g., metre (m). The resolution is 0.1 m or 0.1 fm or 0.1 ft.</Remark>
+        <Reference source="INT-1">II 21; IM 6;</Reference>
+        <Reference source="M4">414; 432.4; 434.3-4;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="F" acronym="DRVAL2" code="88">
+      <DataDictionaryReference token="HYDRO" code="88" dateAccepted="2000-11-01">
+        <Name>Depth range value 2</Name>
+        <Definition>The maximum (deepest) value of a depth range.</Definition>
+        <Remark>Where the area dries, the value is negative. The unit of measure is defined in the DUNI subfield of the DSPM record or in the DUNITS attribute of the M_UNIT meta object class, e.g., metre (m). The resolution is 0.1 m or 0.1 fm or 0.1 ft.</Remark>
+        <Reference source="INT-1">II 21; IM 6;</Reference>
+        <Reference source="M4">414; 432.4; 434.3-4;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="E" acronym="EXPSOU" code="93">
+      <DataDictionaryReference token="HYDRO" code="93" dateAccepted="2010-08-12">
+        <Name>Exposition of sounding</Name>
+        <Definition>Indicates objects with a 'value of sounding' not within the range of depth of the surrounding depth area.</Definition>
+        <Remark>This attribute indicates objects with a 'value of sounding' not within the range of depth of the surrounding depth area. These objects could be a potential danger for navigation.</Remark>
+      </DataDictionaryReference>
+      <Enumeration value="1">
+        <DataDictionaryReference token="HYDRO" code="EXPSOU_1" dateAccepted="2010-08-12">
+          <Name>within the range of depth of the surrounding depth area</Name>
+          <Definition>the depth corresponds to the depth range of the surrounding depth area. i.e. the depth is not shoaler than the minimum depth of the surrounding depth area or deeper than the maximum depth of the surrounding depth area.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2">
+        <DataDictionaryReference token="HYDRO" code="EXPSOU_2" dateAccepted="2010-08-12">
+          <Name>shoaler than the range of depth of the surrounding depth area</Name>
+          <Definition>the depth is shoaler than the minimum depth of the surrounding depth area.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3">
+        <DataDictionaryReference token="HYDRO" code="EXPSOU_3" dateAccepted="2010-08-12">
+          <Name>deeper than the range of depth of the surrounding depth area</Name>
+          <Definition>the depth is deeper than the maximum depth of the surrounding depth area.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="T" acronym="INFORM" code="102">
+      <DataDictionaryReference token="HYDRO" code="102" dateAccepted="2000-11-01">
+        <Name>Information</Name>
+        <Definition>Textual information about the object.</Definition>
+        <Remark>The textual information could be, for example, a list, a table or a text. This attribute should be used, for example, to hold the information that is shown on paper charts by cautionary and explanatory notes. No formatting of text is possible within INFORM.  If formatted text is required, then the attribute TXTDSC must be used.</Remark>
+        <Reference source="INT-1">IA 16;</Reference>
+        <Reference source="M4">242.3-5;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="T" acronym="OBJNAM" code="116">
+      <DataDictionaryReference token="HYDRO" code="116" dateAccepted="2000-11-01">
+        <Name>Object name</Name>
+        <Definition>The individual name of an object.</Definition>
+        <Reference source="INT-1">ID 7, IF 19, IN 12.2-3;</Reference>
+        <Reference source="M4">371; 323.1-2; 431.2-3; 431.5;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="T" acronym="PICREP" code="120">
+      <DataDictionaryReference token="HYDRO" code="120" dateAccepted="2000-11-01">
+        <Name>Pictorial representation</Name>
+        <Definition>Indicates whether a pictorial representation of the object is available.</Definition>
+        <Remark>The 'pictorial representation' could be a drawing or a photo. The string encodes the file name of an external graphic file (pixel/vector).</Remark>
+        <Reference source="INT-1">IE 3.1-2;</Reference>
+        <Reference source="M4">456.5; 457.3;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F,S" valueType="F" acronym="POSACC" code="401">
+      <DataDictionaryReference token="HYDRO" code="401" dateAccepted="2000-11-01">
+        <Name>Positional Accuracy</Name>
+        <Definition>The best estimate of the accuracy of a position. The expected input is the maximum of the two-dimensional error. The error is assumed to be positive and negative. The plus/minus character shall not be encoded.</Definition>
+        <Remark>The unit of measure is defined in the PUNI subfield of the DSPM record, e.g., metre (m). The resolution is 0.1 m or 0.1 mm.</Remark>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="T" acronym="PUBREF" code="124" >
+      <DataDictionaryReference token="HYDRO" code="124" dateAccepted="2000-11-01" >
+        <Name>Publication reference</Name>
+        <Definition>A reference to a nautical publication.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+   <Attribute useType="F" valueType="L" acronym="QUASOU" code="125">
+      <DataDictionaryReference token="HYDRO" code="125" dateAccepted="2000-11-01">
+        <Name>Quality of sounding measurement</Name>
+        <Definition></Definition>
+        <Remark>The attribute 'quality of sounding measurement' indicates the reliability of the value of sounding.</Remark>
+      </DataDictionaryReference>
+      <Enumeration value="1">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_1" dateAccepted="2000-11-01">
+          <Name>depth known</Name>
+          <Definition>the depth from chart datum to the bottom is a known value.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_2" dateAccepted="2000-11-01">
+          <Name>depth unknown</Name>
+          <Definition>the depth from chart datum to the bottom is unknown.</Definition>
+          <Reference source="INT-1">IK 40;</Reference>
+          <Reference source="M4">422.9;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_3" dateAccepted="2000-11-01">
+          <Name>doubtful sounding</Name>
+          <Definition>a depth that may be less than indicated. (adapted from IHO Dictionary, S-32, 5th Edition, 4840)</Definition>
+          <Reference source="INT-1">II 2;</Reference>
+          <Reference source="M4">417; 424.4;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_4" dateAccepted="2000-11-01">
+          <Name>unreliable sounding</Name>
+          <Definition>a depth that is considered to be an unreliable value.</Definition>
+          <Reference source="INT-1">II 14;</Reference>
+          <Reference source="M4">412.4;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5" >
+        <DataDictionaryReference token="HYDRO" code="QUASOU_5" dateAccepted="2000-11-01" >
+          <Name>no bottom found at value shown</Name>
+          <Definition>upon investigation the bottom was not found at this depth. (adapted from IHO Dictionary, S-32, 5th Edition, 4848)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_6" dateAccepted="2000-11-01">
+          <Name>least depth known</Name>
+          <Definition>the shoalest depth over a feature is of known value. (adapted from IHO Dictionary, S-32, 5th Edition, 2705)</Definition>
+          <Reference source="INT-1">IK 26-27;</Reference>
+          <Reference source="M4">422.3-4;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="7">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_7" dateAccepted="2000-11-01">
+          <Name>least depth unknown, safe clearance at depth shown</Name>
+          <Definition>the least depth over a feature is unknown, but there is considered to be safe clearance at this depth.</Definition>
+          <Reference source="INT-1">IK 30;</Reference>
+          <Reference source="M4">422.7;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="8">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_8" dateAccepted="2000-11-01">
+          <Name>value reported (not surveyed)</Name>
+          <Definition>depth value obtained from a report, but not fully surveyed.</Definition>
+          <Reference source="INT-1">II 3.1;</Reference>
+          <Reference source="M4">417, 424.5;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="9">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_9" dateAccepted="2000-11-01">
+          <Name>value reported (not confirmed)</Name>
+          <Definition>depth value obtained from a report, which it has not been possible to confirm.</Definition>
+          <Reference source="INT-1">II 4;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="10">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_10" dateAccepted="2000-11-01">
+          <Name>maintained depth</Name>
+          <Definition>the depth at which a channel is kept by human influence, usually by dredging. (IHO Dictionary, S-32, 5th Edition, 3057)</Definition>
+          <Reference source="INT-1">II 23;</Reference>
+          <Reference source="M4">414.2;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="11">
+        <DataDictionaryReference token="HYDRO" code="QUASOU_11" dateAccepted="2000-11-01">
+          <Name>not regularly maintained</Name>
+          <Definition>depths may be altered by human influence, but will not be routinely maintained.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="I" acronym="SCAMIN" code="133">
+      <DataDictionaryReference token="HYDRO" code="133" dateAccepted="2000-11-01">
+        <Name>Scale minimum</Name>
+        <Definition>The minimum scale at which the object may be used e.g. for ECDIS presentation.</Definition>
+        <Remark>The modulus of the scale is indicated, that is 1:1 250 000 is encoded as 1250000.</Remark>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="F" acronym="SOUACC" code="144">
+      <DataDictionaryReference token="HYDRO" code="144" dateAccepted="2000-11-01">
+        <Name>Sounding accuracy</Name>
+        <Definition>The best estimate of the accuracy of the sounding data. The maximum of the one-dimensional error. The error is assumed to be positive and negative. The plus/minus character shall not be encoded.</Definition>
+        <Remark>The unit of measure is defined in the DUNI subfield of the DSPM record or in the DUNITS attribute of the M_UNIT meta object class, e.g., metre (m). The resolution is 0.1 m or 0.1 fm or 0.1 ft.</Remark>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="I" acronym="SDISMX" code="145" >
+      <DataDictionaryReference token="HYDRO" code="145" dateAccepted="2000-11-01" >
+        <Name>Sounding distance - maximum</Name>
+        <Definition>The maximum spacing of the principal sounding lines of a survey.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="I" acronym="SDISMN" code="146" >
+      <DataDictionaryReference token="HYDRO" code="146" dateAccepted="2000-11-01" >
+        <Name>Sounding distance - minimum</Name>
+        <Definition>The minimum spacing of the principal sounding lines of a survey.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="S" acronym="SORDAT" code="147">
+      <DataDictionaryReference token="HYDRO" code="147" dateAccepted="2000-11-01">
+        <Name>Source date</Name>
+        <Definition>The production date of the source, e.g. the date of measurement.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="S" acronym="SORIND" code="148">
+      <DataDictionaryReference token="HYDRO" code="148" dateAccepted="2000-11-01">
+        <Name>Source indication</Name>
+        <Definition>Information about the source of the object.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="T" acronym="SURATH" code="150">
+      <DataDictionaryReference token="HYDRO" code="150" dateAccepted="2000-11-01">
+        <Name>Survey authority</Name>
+        <Definition>The authority which was responsible for the survey.</Definition>
+        <Remark>The attribute 'survey authority' encodes the name of the source survey authority.</Remark>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="S" acronym="SUREND" code="151">
+      <DataDictionaryReference token="HYDRO" code="151" dateAccepted="2000-11-01">
+        <Name>Survey date - end</Name>
+        <Definition>The end date of the survey.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="S" acronym="SURSTA" code="152">
+      <DataDictionaryReference token="HYDRO" code="152" dateAccepted="2000-11-01">
+        <Name>Survey date - start</Name>
+        <Definition>The start date of the survey.</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="L" acronym="SURTYP" code="153">
+      <DataDictionaryReference token="HYDRO" code="153" dateAccepted="2000-11-01">
+        <Name>Survey type</Name>
+        <Definition></Definition>
+      </DataDictionaryReference>
+      <Enumeration value="1" >
+        <DataDictionaryReference token="HYDRO" code="SURTYP_1" dateAccepted="2000-11-01" >
+          <Name>reconnaissance / sketch survey</Name>
+          <Definition>a survey made to a lower degree of accuracy and detail than the chosen scale would normally indicate.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2" >
+        <DataDictionaryReference token="HYDRO" code="SURTYP_2" dateAccepted="2000-11-01" >
+          <Name>controlled survey</Name>
+          <Definition>a thorough survey usually conducted with reference to guidelines.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4" >
+        <DataDictionaryReference token="HYDRO" code="SURTYP_4" dateAccepted="2000-11-01" >
+          <Name>examintion survey</Name>
+          <Definition>a survey principally aimed at the investigation of underwater obstructions and dangers.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5" >
+        <DataDictionaryReference token="HYDRO" code="SURTYP_5" dateAccepted="2000-11-01" >
+          <Name>passage survey</Name>
+          <Definition>a survey where soundings are acquired by vessels on passage.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6" >
+        <DataDictionaryReference token="HYDRO" code="SURTYP_6" dateAccepted="2000-11-01" >
+          <Name>remotely sensed</Name>
+          <Definition>a survey where features have been positioned and delimited using remote sensing techniques.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="L" acronym="TECSOU" code="156">
+      <DataDictionaryReference token="HYDRO" code="156" dateAccepted="2000-11-01">
+        <Name>Technique of sounding measurement</Name>
+        <Definition></Definition>
+        <Reference source="INT-1">II 24; IK 2, 27, 42;</Reference>
+        <Reference source="M4">415; 415.1-2; 422.3-4; 422.9;</Reference>
+      </DataDictionaryReference>
+      <Enumeration value="1">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_1" dateAccepted="2000-11-01">
+          <Name>found by echo-sounder</Name>
+          <Definition>the depth was determined by using an instrument that determines depth of water by measuring the time interval between emission of a sonic or ultrasonic signal and return of its echo from the bottom. (adapted from IHO Dictionary, S-32, 1547)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_2" dateAccepted="2000-11-01">
+          <Name>found by side-scan-sonar</Name>
+          <Definition>the depth was computed from a record produced by active sonar in which fixed acoustic beams are directed into the water perpendicularly to the direction of travel to scan the bottom and generate a record of the bottom configuration. (adapted from IHO Dictionary, S-32, 4710)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_3" dateAccepted="2000-11-01">
+          <Name>found by multi-beam</Name>
+          <Definition>the depth was determined by using a wide swath echo sounder that uses multiple beams to measure depths directly below and transverse to the ship's track. (adapted from IHO Dictionary, S-32, 3339)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_4" dateAccepted="2000-11-01">
+          <Name>found by diver</Name>
+          <Definition>the depth was determined by a person skilled in the practice of diving. (adapted from IHO Dictionary, S-32, 1422)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_5" dateAccepted="2000-11-01">
+          <Name>found by lead-line</Name>
+          <Definition>the depth was determined by using a line, graduated with attached marks and fastened to a sounding lead. (adapted from IHO Dictionary, S-32, 2698)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_6" dateAccepted="2000-11-01">
+          <Name>swept by wire-drag</Name>
+          <Definition>the given area was determined to be free from navigational dangers to a certain depth by towing a buoyed wire at the desired depth by two launches, or a least depth was identified using the same technique. (adapted from IHO Dictionary, S-32, 5248, 6013)</Definition>
+          <Reference source="INT-1">II 24;IK 2,27,42;</Reference>
+          <Reference source="M4">415; 422.3; 422.9;</Reference>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="7">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_7" dateAccepted="2000-11-01">
+          <Name>found by laser</Name>
+          <Definition>the depth was determined by using an instrument that measures distance by emitting timed pulses of laser light and measuring the time between emission and reception of the reflected pulses. (adapted from IHO Dictionary, S-32, 2763)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="8">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_8" dateAccepted="2000-11-01">
+          <Name>swept by vertical acoustic system</Name>
+          <Definition>the given area has been swept using a system comprised of multiple echo sounder transducers attached to booms deployed from the survey vessel.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="9">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_9" dateAccepted="2000-11-01">
+          <Name>found by electromagnetic sensor</Name>
+          <Definition>the depth was determined by using an instrument that compares electromagnetic signals. (adapted from IHO Dictionary, S-32, 1571)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="10">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_10" dateAccepted="2000-11-01">
+          <Name>photogrammetry</Name>
+          <Definition>the depth was determined by applying mathematical techniques to photographs. (adapted from IHO Dictionary, S-32, 3791)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="11">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_11" dateAccepted="2000-11-01">
+          <Name>satellite imagery</Name>
+          <Definition>the depth was determined by using instruments placed aboard an artificial satellite. (adapted from IHO Dictionary, S-32, 4509)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="12">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_12" dateAccepted="2000-11-01">
+          <Name>found by levelling</Name>
+          <Definition>the depth was determined by using levelling techniques to find the elevation of the point relative to a datum. (adapted from IHO Dictionary, S-32, 2741)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="13">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_13" dateAccepted="2000-11-01">
+          <Name>swept by side-scan-sonar</Name>
+          <Definition>the given area was determined to be free from navigational dangers to a certain depth by towing a side-scan-sonar. (adapted from IHO Dictionary, S-32, 5248, 4710) [415.2]</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="14">
+        <DataDictionaryReference token="HYDRO" code="TECSOU_14" dateAccepted="2000-11-01">
+          <Name>computer generated</Name>
+          <Definition>the sounding was determined from a bottom model constructed using a computer.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="T" acronym="TXTDSC" code="158">
+      <DataDictionaryReference token="HYDRO" code="158" dateAccepted="2000-11-01">
+        <Name>Textual description</Name>
+        <Definition>The string encodes the file name of an external text file that contains the text in English</Definition>
+        <Remark>The attribute 'textual description' indicates that a file containing text extracted from relevant pilot books or navigational publications is available.</Remark>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="F" acronym="VALDCO" code="174">
+      <DataDictionaryReference token="HYDRO" code="174" dateAccepted="2000-11-01">
+        <Name>Value of depth contour</Name>
+        <Definition>The depth of a sea bottom contour.</Definition>
+        <Remark>Drying contours are indicated by a negative value. The unit of measure is defined in the DUNI subfield of the DSPM record or in the DUNITS attribute of the M_UNIT meta object class, e.g., metre (m). The resolution is 0.1 m or 0.1 fm or 0.1 ft.</Remark>
+        <Reference source="INT-1">II 30;</Reference>
+        <Reference source="M4">410; 411;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="E" acronym="VERDAT" code="185">
+      <DataDictionaryReference token="HYDRO" code="185" dateAccepted="2001-05-31">
+        <Name>Vertical datum</Name>
+        <Definition>Vertical datum</Definition>
+      </DataDictionaryReference>
+      <Enumeration value="1" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_1" dateAccepted="2000-11-01" >
+          <Name>Mean low water springs</Name>
+          <Definition>(MLWS) - the average height of the low waters of spring tides. Also called spring low water. (IHO Dictionary, S-32, 5th Edition, 3150)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_2" dateAccepted="2000-11-01" >
+          <Name>Mean lower low water springs</Name>
+          <Definition>(MLLWS) - the average height of lower low water springs at a place. (IHO Dictionary, S-32, 5th Edition, 3146)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_3" dateAccepted="2000-11-01" >
+          <Name>Mean sea level</Name>
+          <Definition>(MSL) - the average height of the surface of the sea at a tide station for all stages of the tide over a 19-year period, usually determined from hourly height readings measured from a fixed predetermined reference level. (IHO Dictionary, S-32, 5th Edition, 3156)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_4" dateAccepted="2000-11-01" >
+          <Name>Lowest low water</Name>
+          <Definition>an arbitrary level conforming to the lowest tide observed at a place, or some what lower.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_5" dateAccepted="2000-11-01" >
+          <Name>Mean low water</Name>
+          <Definition>(MLW) - the average height of all low waters at a place over a 19-year period. (IHO Dictionary, S-32, 5th Edition, 3147)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_6" dateAccepted="2000-11-01" >
+          <Name>Lowest low water springs</Name>
+          <Definition>an arbitrary level conforming to the lowest water level observed at a place at spring tides during a period of time shorter than 19 years. (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="7" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_7" dateAccepted="2000-11-01" >
+          <Name>Approximate mean low water springs</Name>
+          <Definition>an arbitrary level, usually within " 0.3m from that of mean low water springs (MLWS). (Hydrographic Service, Royal Australian Navy)</Definition>
+         </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="8" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_8" dateAccepted="2000-11-01" >
+          <Name>Indian spring low water</Name>
+          <Definition>(ISLW) - an arbitrary tidal datum approximating the level of the mean of the lower low water at spring tides. Also called Indian tidal plane. (IHO Dictionary, S-32, 5th Edition, 2427) A tidal datum approximating the lowest water level observed at a place, originated by G.H. Darwin for the tides of India at a level below MSL being equal to the sum of amplitudes of the harmonic constituents M2, S2, K1 and O1; usually below that of the lower low water at spring tides. Also called Indian tide plane. (Hydrographic Service, Royal Australian Navy).</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="9" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_9" dateAccepted="2000-11-01" >
+          <Name>Low water springs</Name>
+          <Definition>an arbitrary level, approximating that of mean low water springs (MLWS). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="10" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_10" dateAccepted="2000-11-01" >
+          <Name>Approximate lowest astronomical tide</Name>
+          <Definition>an arbitrary level, usually within " 0.3m from that of lowest astronomical tide (LAT). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="11" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_11" dateAccepted="2000-11-01" >
+          <Name>Nearly lowest low water</Name>
+          <Definition>an arbitrary level approximating the lowest water level observed at a place, usually equivalent to the Indian spring low water (ISLW). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="12" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_12" dateAccepted="2000-11-01" >
+          <Name>Mean lower low water</Name>
+          <Definition>(MLLW) - the average height of the lower low waters at a place over a 19-year period. (IHO Dictionary, S-32, 5th Edition, 3145)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="13" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_13" dateAccepted="2000-11-01" >
+          <Name>Low water</Name>
+          <Definition>an approximation of mean low water adopted as the reference level for a limited area, irrespective of better determinations at a later date. Used mostly in harbour and river engineering. Used in inland (non-tidal) waters. It is generally defined as a level which the daily mean water level would fall below less than 5% of the time and by no more than 0.2 metres during the navigation season. A single level surface is usually chosen as the low water datum for a whole lake. On a river, low water datum is a sloping surface which approximates the river surface at a low state. (Canadian Hydrographic Service)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="14" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_14" dateAccepted="2000-11-01" >
+          <Name>Approximate mean low water</Name>
+          <Definition>an arbitrary level, usually within " 0.3m from that of mean low water (MLW). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="15" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_15" dateAccepted="2000-11-01" >
+          <Name>Approximate mean lower low water</Name>
+          <Definition>an arbitrary level, usually within " 0.3m from that of mean lower low water (MLLW). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="16" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_16" dateAccepted="2000-11-01" >
+          <Name>Mean high water</Name>
+          <Definition>(MHW) - the average height of all high waters at a place over a 19-year period. (IHO Dictionary, S-32, 5th Edition, 3141)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="17" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_17" dateAccepted="2000-11-01" >
+          <Name>Mean high water springs</Name>
+          <Definition>(MHWS) - the average height of the high waters of spring tides. Also called spring high water. (IHO Dictionary, S-32, 5th Edition, 3144)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="18" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_18" dateAccepted="2000-11-01" >
+          <Name>High water</Name>
+          <Definition>the highest level reached at a place by the water surface in one tidal cycle. Also called high tide. (IHO Dictionary, S-32, 5th Edition, 2251) when used on inland (non-tidal) waters it is generally defined as a level which the daily mean water level exceeds less than 5% of the time.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="19" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_19" dateAccepted="2000-11-01" >
+          <Name>Approximate mean sea level</Name>
+          <Definition>an arbitrary level, usually within " 0.3m from that of mean sea level (MSL). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="20" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_20" dateAccepted="2000-11-01" >
+          <Name>High water springs</Name>
+          <Definition>an arbitrary level, approximating that of mean high water springs (MHWS). (Hydrographic Service, Royal Australian Navy)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="21" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_21" dateAccepted="2000-11-01" >
+          <Name>Mean higher high water</Name>
+          <Definition>(MHHW) - the average height of higher high waters at a place over a 19-year period. (IHO Dictionary, S-32, 5th Edition, 3140)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="22" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_22" dateAccepted="2000-11-01" >
+          <Name>Equinoctial spring low water</Name>
+          <Definition>the level of low water springs near the time of an equinox.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="23" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_23" dateAccepted="2000-11-01" >
+          <Name>Lowest astronomical tide</Name>
+          <Definition>(LAT) - the lowest tide level which can be predicted to occur under average meterological conditions and under any combination of astronomical conditions. (IHO Dictionary, S-32, 5th Edition, 2936)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="24" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_24" dateAccepted="2000-11-01" >
+          <Name>Local datum</Name>
+          <Definition>an arbitrary datum defined by a local harbour authority, from which levels and tidal heights are measured by this authority.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="25" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_25" dateAccepted="2000-11-01" >
+          <Name>International Great Lakes Datum 1985</Name>
+          <Definition>(IGLD 1985) - a vertical reference system with its zero based on the mean water level at Rimouski/Pointe-au-Pere, Quebec, over the period 1970 to 1988.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="26" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_26" dateAccepted="2000-11-01" >
+          <Name>Mean water level</Name>
+          <Definition>the average of all hourly water levels over the available period of record.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="27" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_27" dateAccepted="2000-11-01" >
+          <Name>Lower low water large tide</Name>
+          <Definition>(LLWLT) - the average of the lowest low waters, one from each of 19 years of observations.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="28" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_28" dateAccepted="2000-11-01" >
+          <Name>Higher high water large tide</Name>
+          <Definition>(HHWLT) - the average of the highest high waters, one from each of 19 years of observations.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="29" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_29" dateAccepted="2000-11-01" >
+          <Name>Nearly highest high water</Name>
+          <Definition>an arbitrary level approximating the highest water level observed at a place, usually equivalent to the high water springs.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="30" >
+        <DataDictionaryReference token="HYDRO" code="VERDAT_30" dateAccepted="2000-11-01" >
+          <Name>Highest astronomical tide (HAT)</Name>
+          <Definition>the highest tidal level which can be predicted to occur under average meteorological conditions and under any combination of astronomical conditions. (IHO Dictionary, S-32, 5th Edition, 2244).</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="N" valueType="T" acronym="NINFOM" code="300">
+      <DataDictionaryReference token="HYDRO" code="300" dateAccepted="2000-11-01">
+        <Name>Information in national language</Name>
+        <Definition>Textual information in national language characters</Definition>
+        <Remark>The attribute 'information in national language' encodes any textual information about an object using a specified national language. The textual information could be, for example, a list, a table or a text. This attribute should be used, for example, to hold the information that is shown on paper charts by cautionary and explanatory notes.</Remark>
+        <Reference source="INT-1">IA 16;</Reference>
+        <Reference source="M4">242.3-5;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="N" valueType="T" acronym="NOBJNM" code="301">
+      <DataDictionaryReference token="HYDRO" code="301" dateAccepted="2000-11-01">
+        <Name>Object name in national language</Name>
+        <Definition>Name of object in national language characters</Definition>
+        <Remark>The attribute 'object name in national language' encodes the individual name of an object in the specified national language.</Remark>
+        <Reference source="INT-1">ID 7, IF 19, IN 12.2-3;</Reference>
+        <Reference source="M4">371; 323.1-2; 431.2-3; 431.5;</Reference>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="N" valueType="T" acronym="NTXTDS" code="304">
+      <DataDictionaryReference token="HYDRO" code="304" dateAccepted="2000-11-01">
+        <Name>Textual description in national language</Name>
+        <Definition>The file name of an external text file that contains the text in a national language.</Definition>
+        <Remark>The attribute 'textual description in national language' indicates whether a text file containing text extracted from relevant pilot books or navigational publications is available.</Remark>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F,S" valueType="E" acronym="QUAPOS" code="402" >
+      <DataDictionaryReference token="HYDRO" code="402" dateAccepted="2000-11-01" >
+        <Name>Quality of position</Name>
+        <Definition></Definition>
+        <Reference source="INT-1" >IB 33; IC 1-2, 12; II 1-2, 3.1-2, 4, 25, 31;</Reference>
+        <Reference source="M4" >305.1; 310.1; 311; 351.4; 410; 411.2; 424.3;</Reference>
+      </DataDictionaryReference>
+      <Enumeration value="1" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_1" dateAccepted="2000-11-01" >
+          <Name>surveyed</Name>
+          <Definition>the position(s) was(were) determined by the operation of making measurements for determining the relative position of points on, above or beneath the earth=s surface. Survey implies a regular, controlled survey of any date. (adapted from IHO Dictionary, S-32, 5195, and IHO Chart Specifications, M-4, 175.2)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_2" dateAccepted="2000-11-01" >
+          <Name>unsurveyed</Name>
+          <Definition>survey data is does not exist or is very poor. (adapted from IHO Dictionary, S-32, 5732)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_3" dateAccepted="2000-11-01" >
+          <Name>inadequately surveyed</Name>
+          <Definition>position data is of a very poor quality. (adapted from IHO Dictionary, S-32, 5732)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_4" dateAccepted="2000-11-01" >
+          <Name>approximated</Name>
+          <Definition>a position that is considered to be less than third-order accuracy, but is generally considered to be within 30.5 metres of its correct geographic location. Also may apply to an object whose position does not remain fixed. (adapted from IHO Dictionary, S-32, 213, 3967, and IHO Specifications, M-4, 424.1)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_5" dateAccepted="2000-11-01" >
+          <Name>position doubtful</Name>
+          <Definition>an object whose position has been reported but which is considered to be doubtful.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_6" dateAccepted="2000-11-01" >
+          <Name>unreliable</Name>
+          <Definition>an object=s position obtained from questionable or unreliable data.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="7" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_7" dateAccepted="2000-11-01" >
+          <Name>reported (not surveyed)</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="8" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_8" dateAccepted="2000-11-01" >
+          <Name>reported (not confirmed)</Name>
+          <Definition>an object whose position has been reported and its position confirmed by some means other than a formal survey such as an independent report of the same object.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="9" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_9" dateAccepted="2000-11-01" >
+          <Name>estimated</Name>
+          <Definition>the most probable position of an object determined from incomplete data or data of questionable accuracy. (adapted from IHO Dictionary, S-32, 3960)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="10" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_10" dateAccepted="2000-11-01" >
+          <Name>precisely known</Name>
+          <Definition>a position that is of a known value, such as the position of an anchor berth or other defined object.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="11" >
+        <DataDictionaryReference token="HYDRO" code="QUAPOS_11" dateAccepted="2000-11-01" >
+          <Name>calculated</Name>
+          <Definition>a position that is computed from data.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="E" acronym="verdat" code="17005">
+      <DataDictionaryReference token="IENC" code="17005" dateAccepted="2001-05-31">
+        <Name>Vertical datum</Name>
+        <Definition>Vertical datum</Definition>
+      </DataDictionaryReference>
+      <Enumeration value="12">
+        <DataDictionaryReference token="IENC" code="verdat_12" dateAccepted="2001-05-31">
+          <Name>Mean lower low water</Name>
+          <Definition>(MLLW) - the average height of the lower low waters at a place over a 19-year period. (IHO Dictionary, S-32, 5th Edition, 3145)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="31">
+        <DataDictionaryReference token="IENC" code="verdat_31" dateAccepted="2001-05-31">
+          <Name>Local low water reference level</Name>
+          <Definition>low water reference level of the local area</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="32">
+        <DataDictionaryReference token="IENC" code="verdat_32" dateAccepted="2001-05-31">
+          <Name>Local high water reference level</Name>
+          <Definition>high water reference level of the local area</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="33">
+        <DataDictionaryReference token="IENC" code="verdat_33" dateAccepted="2001-05-31">
+          <Name>Local mean water reference level</Name>
+          <Definition>mean water reference level of the local area</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="34">
+        <DataDictionaryReference token="IENC" code="verdat_34" dateAccepted="2001-05-31">
+          <Name>Equivalent height of water (German GlW)</Name>
+          <Definition>A low water level which is the result of a defined low water discharge - called "equivalent discharge".</Definition>
+          <Remark>A new agreement upon the value of the "equivalent discharge" is made every 10 years by the "Central Commission for Navigation on the Rhine". On average the "equivalent height of water" is currently fallen short of only at about 10 days per year [2002]</Remark>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="35">
+        <DataDictionaryReference token="IENC" code="verdat_35" dateAccepted="2001-05-31">
+          <Name>Highest Shipping Height of Water (German HSW)</Name>
+          <Definition>upper limit of water levels where navigation is allowed</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="36">
+        <DataDictionaryReference token="IENC" code="verdat_36" dateAccepted="2001-05-31">
+          <Name>Reference low water level according to Danube Commission</Name>
+          <Definition>The water level at a discharge, which is exceeded 94 % of the year within a period of 30 years.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="37">
+        <DataDictionaryReference token="IENC" code="verdat_37" dateAccepted="2001-05-31">
+          <Name>Highest shipping height of water according to Danube Commission</Name>
+          <Definition>The water level at a discharge, which is exceeded 1 % of the year within a period of 30 years.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="38">
+        <DataDictionaryReference token="IENC" code="verdat_38" dateAccepted="2001-05-31">
+          <Name>Dutch river low water reference level (OLR)</Name>
+          <Definition>The water level at a discharge, which is exceeded 95 % of the year within a period of 20 years.</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="39">
+        <DataDictionaryReference token="IENC" code="verdat_39" dateAccepted="2001-05-31">
+          <Name>Russian project water level</Name>
+          <Definition>Conditional low water level with established probability (Hydrographic Terminology Dictionary, HDNO, 1984).</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="40">
+        <DataDictionaryReference token="IENC" code="verdat_40" dateAccepted="2001-05-31">
+          <Name>Russian normal backwater level</Name>
+          <Definition>Highest water level derived from the upper backwater stream in watercourse or reservoir under the normal operational conditions. (Hydrographic Terminology Dictionary, HDNO, 1984).</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="41">
+        <DataDictionaryReference token="IENC" code="verdat_41" dateAccepted="2001-05-31">
+          <Name>Ohio River Datum</Name>
+          <Definition></Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+    <Attribute useType="F" valueType="F" acronym="wtwdis" code="17064">
+      <DataDictionaryReference token="IENC" code="17064" dateAccepted="2001-05-31">
+        <Name>Waterway distance</Name>
+        <Definition>The distance measured from an origin of a river or canal</Definition>
+      </DataDictionaryReference>
+    </Attribute>
+    <Attribute useType="F" valueType="E" acronym="hunits" code="17103">
+      <DataDictionaryReference token="IENC" code="17103" dateAccepted="2001-05-31">
+        <Name>Height/length units</Name>
+        <Definition>Units of measure of waterway distances</Definition>
+      </DataDictionaryReference>
+      <Enumeration value="1">
+        <DataDictionaryReference token="IENC" code="hunits_1" dateAccepted="2001-05-31">
+          <Name>metres</Name>
+          <Definition>heights/lengths are specified in metres (SI units of length)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="2">
+        <DataDictionaryReference token="IENC" code="hunits_2" dateAccepted="2001-05-31">
+          <Name>feet</Name>
+          <Definition>heights/lengths are specified in feet (imperial units of length)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="3">
+        <DataDictionaryReference token="IENC" code="hunits_3" dateAccepted="2001-05-31">
+          <Name>kilometres</Name>
+          <Definition>heights/lengths are specified in kilometres (1000 metres)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="4">
+        <DataDictionaryReference token="IENC" code="hunits_4" dateAccepted="2001-05-31">
+          <Name>hectometres</Name>
+          <Definition>heights/lengths are specified in hectometres (100 metres)</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="5">
+        <DataDictionaryReference token="IENC" code="hunits_5" dateAccepted="2001-05-31">
+          <Name>statute miles</Name>
+          <Definition>heights/lengths are specified in statue (land) miles</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+      <Enumeration value="6">
+        <DataDictionaryReference token="IENC" code="hunits_6" dateAccepted="2001-05-31">
+          <Name>nautical miles</Name>
+          <Definition>heights/lengths are specified in nautical (sea) miles</Definition>
+        </DataDictionaryReference>
+      </Enumeration>
+    </Attribute>
+  </Attributes>
+  <Features>
+    <Feature primitive="A" acronym="DEPARE" type="G" code="42">
+      <DataDictionaryReference token="HYDRO" code="42" dateAccepted="2000-11-01">
+        <Name>Depth area</Name>
+        <Definition>A depth area is a water area whose depth is within a defined range of values.</Definition>
+        <Remark>Intertidal areas are encoded as depth areas. These do not have to include soundings. The depth range within a depth area is defined by the attributes 'DRVAL1' and 'DRVAL2'.</Remark>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="DRVAL1" usage="M" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="DRVAL2" usage="M" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="QUASOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O"/>
+      <AttributeBinding acronym="SCAMIN" decimalDigits="0" usage="O"/>
+      <AttributeBinding acronym="TXTDSC" usage="O"/>
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="L" acronym="DEPCNT" type="G" code="43">
+      <DataDictionaryReference token="HYDRO" code="43" dateAccepted="2000-11-01">
+        <Name>Depth contour</Name>
+        <Definition>A line connecting points of equal water depth which is sometimes significantly displaced outside of soundings, symbols and other chart detail for clarity as well as generalization. Depth contours, therefore, often represent an approximate location of the line of equal depth as related to the surveyed line delineated on the source. Also referred to as depth curve. (IHO Dictionary, S-32, 5th Edition, 1314, 1315)</Definition>
+        <Remark>Drying contours are encoded with negative values.</Remark>
+        <Reference source="INT-1">II 15, 30, 31;</Reference>
+        <Reference source="M4">404.2; 410; 411, 411.2; 413-413.2;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="VALDCO" usage="M" decimalDigits="1" unit="m,ft" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O"/>
+      <AttributeBinding acronym="SCAMIN" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O"/>
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="DRGARE" type="G" code="46">
+      <DataDictionaryReference token="HYDRO" code="46" dateAccepted="2000-11-01">
+        <Name>Dredged area</Name>
+        <Definition>An area of the bottom of a body of water which has been deepened by dredging. (IHO Dictionary, S-32, 5th Edition, 1462)</Definition>
+        <Reference source="INT-1">II 20-23;</Reference>
+        <Reference source="M4">414.1-2; 414.4;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="DRVAL1" usage="M" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="DRVAL2" usage="O" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="NOBJNM" usage="O"/>
+      <AttributeBinding acronym="OBJNAM" usage="O"/>
+      <AttributeBinding acronym="QUASOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11" />
+      <AttributeBinding acronym="SOUACC" usage="O"/>
+      <AttributeBinding acronym="TECSOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11,12,13,14" />
+      <AttributeBinding acronym="INFORM" usage="O"/>
+      <AttributeBinding acronym="NINFOM" usage="O"/>
+      <AttributeBinding acronym="NTXTDS" usage="O"/>
+      <AttributeBinding acronym="SCAMIN" decimalDigits="0" usage="O"/>
+      <AttributeBinding acronym="TXTDSC" usage="O"/>
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="P" acronym="SOUNDG" type="G" code="129">
+      <DataDictionaryReference token="HYDRO" code="129" dateAccepted="2000-11-01">
+        <Name>Sounding</Name>
+        <Definition>A measured water depth or spot which has been reduced to a vertical datum (may be a drying height).</Definition>
+        <Remark>The value of the sounding is encoded in the 3-D Coordinate field of the Spatial Record Structure (see S-57 Part 3). Drying heights (drying soundings) are indicated by a negative value.</Remark>
+        <Reference source="INT-1">II 10-15;</Reference>
+        <Reference source="M4">403.1; 410; 412-412.4; 413.1; 417.3;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="EXPSOU" usage="O" valueList="1,2,3" />
+      <AttributeBinding acronym="NOBJNM" usage="O" />
+      <AttributeBinding acronym="OBJNAM" usage="O" />
+      <AttributeBinding acronym="QUASOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11" />
+      <AttributeBinding acronym="SOUACC" usage="O" decimalDigits="1" />
+      <AttributeBinding acronym="TECSOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11,12,13,14" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="SCAMIN" usage="O" decimalDigits="0" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="UNSARE" type="G" code="154" >
+      <DataDictionaryReference token="HYDRO" code="154" dateAccepted="2000-11-01" >
+        <Name>Unsurveyed area</Name>
+        <Definition>An area for which no bathymetric survey information is available.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >417.8;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="SCAMIN" usage="O" decimalDigits="0" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="M_ACCY" type="M" code="300" >
+      <DataDictionaryReference token="HYDRO" code="300" dateAccepted="2000-11-01" >
+        <Name>Accuracy of data</Name>
+        <Definition>An area within which the best estimate of the overall accuracy of the data is uniform. The overall accuracy takes into account for example the source accuracy, chart scale, digitising accuracy etc..</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >not specified;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="POSACC" usage="O" decimalDigits="1" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="M_CSCL" type="M" code="301" >
+      <DataDictionaryReference token="HYDRO" code="301" dateAccepted="2000-11-01" >
+        <Name>Compilation scale of data</Name>
+        <Definition>An area within which the data was originally compiled at a uniform scale. For example, it may define the scale of the paper chart from which the data was digitised.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >not specified;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="CSCALE" usage="M" decimalDigits="0" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="M_COVR" type="M" code="302" >
+      <DataDictionaryReference token="HYDRO" code="302" dateAccepted="2000-11-01" >
+        <Name>Coverage</Name>
+        <Definition>A geographical area that describes the coverage and extent of spatial objects.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >not specified;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="CATCOV" usage="M" valueList="1,2" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="P,A" acronym="M_NPUB" type="M" code="305" >
+      <DataDictionaryReference token="HYDRO" code="305" dateAccepted="2000-11-01" >
+        <Name>Nautical publication information</Name>
+        <Definition>Used to relate additional nautical information or publications to the data.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >not specified;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="PICREP" usage="O" />
+      <AttributeBinding acronym="PUBREF" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="M_QUAL" type="M" code="308" >
+      <DataDictionaryReference token="HYDRO" code="308" dateAccepted="2000-11-01" >
+        <Name>Quality of data</Name>
+        <Definition>An area within which a uniform assessment of the quality of the data exists.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >not specified;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="CATZOC" usage="M" valueList="1,2,3,4,5,6" />
+      <AttributeBinding acronym="DRVAL1" usage="O" decimalDigits="1" />
+      <AttributeBinding acronym="DRVAL2" usage="O" decimalDigits="1" />
+      <AttributeBinding acronym="POSACC" usage="O" decimalDigits="1" />
+      <AttributeBinding acronym="SOUACC" usage="O" decimalDigits="1" />
+      <AttributeBinding acronym="SUREND" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SURSTA" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="TECSOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11,12,13,14" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="M_SDAT" type="M" code="309" >
+      <DataDictionaryReference token="HYDRO" code="309" dateAccepted="2000-11-01" >
+        <Name>Sounding datum</Name>
+        <Definition>An area of uniform sounding datum.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >not specified;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="VERDAT" usage="M" valueList="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="L,A" acronym="M_SREL" type="M" code="310" >
+      <DataDictionaryReference token="HYDRO" code="310" dateAccepted="2000-11-01" >
+        <Name>Survey reliability</Name>
+        <Definition>An area within which a uniform assessment of the reliability of source survey information exists.</Definition>
+        <Reference source="INT-1" >not specified;</Reference>
+        <Reference source="M4" >170.2;178;</Reference>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="QUAPOS" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11" />
+      <AttributeBinding acronym="QUASOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11" />
+      <AttributeBinding acronym="SDISMN" usage="O" decimalDigits="0" />
+      <AttributeBinding acronym="SDISMX" usage="O" decimalDigits="0" />
+      <AttributeBinding acronym="SURATH" usage="O" />
+      <AttributeBinding acronym="SUREND" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SURSTA" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SURTYP" usage="O" valueList="1,2,4,5,6" />
+      <AttributeBinding acronym="TECSOU" usage="O" valueList="1,2,3,4,5,6,7,8,9,10,11,12,13,14" />
+      <AttributeBinding acronym="INFORM" usage="O" />
+      <AttributeBinding acronym="NINFOM" usage="O" />
+      <AttributeBinding acronym="NTXTDS" usage="O" />
+      <AttributeBinding acronym="TXTDSC" usage="O" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="depare" type="G" code="17003" >
+      <DataDictionaryReference token="IENC" code="17003" dateAccepted="2001-05-31" >
+        <Name>Depth area</Name>
+        <Definition>A depth area is a water area whose depth is within a defined range of values.</Definition>
+        <Remark>Intertidal areas are encoded as depth areas. These do not have to include soundings. The depth range within a depth area is defined by the attributes 'DRVAL1' and 'DRVAL2'.</Remark>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="DRVAL1" usage="M" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="DRVAL2" usage="M" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="eleva1" usage="C" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="eleva2" usage="C" decimalDigits="2" unit="m,ft" />
+      <AttributeBinding acronym="QUASOU" usage="C" valueList="1,2,3,4,5,6,7,8,9,10,11" />
+      <AttributeBinding acronym="hunits" usage="M" valueList="1,2,3,4,5,6" />
+      <AttributeBinding acronym="wtwdis" usage="M" decimalDigits="3" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+    <Feature primitive="A" acronym="m_sdat" type="M" code="17022" >
+      <DataDictionaryReference token="IENC" code="17022" dateAccepted="2001-05-31" >
+        <Name>Sounding datum</Name>
+        <Definition>An area of uniform sounding datum.</Definition>
+      </DataDictionaryReference>
+      <AttributeBinding acronym="verdat" usage="M" valueList="12,31,32,33,34,35,36,37,38,39,40" />
+      <AttributeBinding acronym="SORDAT" usage="O" format="ccyymmdd" />
+      <AttributeBinding acronym="SORIND" usage="O" format="cc,cc,ccccc,c..." />
+    </Feature>
+  </Features>
+</Catalogue>
