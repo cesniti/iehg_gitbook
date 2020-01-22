@@ -4,7 +4,7 @@ This side refers to **InlandECDIS Standard Edition 2.1, Section 3** It is outsid
 
 {% file src="../../../.gitbook/assets/ies21\_section3\_preslib.pdf" caption="Presentation Library for Inland ECDIS Ed 2.1 \(pdf\)" %}
 
-{% file src="../../../.gitbook/assets/correction\_preslib.pdf" caption="Correction to PresLib Ed.2.1 \(pdf\)" %}
+{% file src="../../../.gitbook/assets/correction\_preslib \(1\).pdf" caption="Correction to PresLib Ed.2.1 \(pdf\)" %}
 
 
 
