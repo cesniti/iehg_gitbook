@@ -9,8 +9,8 @@
     * [IENC Feature Catalogue 2.3](standard-iecdis/standard-2.3/ienc-product-specification-2.3/ienc-feature-catalogue-2.3.md)
     * [IENC Encoding Guide 2.3.6](standard-iecdis/standard-2.3/ienc-product-specification-2.3/ienc-encoding-guide-2.3.6.md)
   * [IENC Producer and Waterway Codes](standard-iecdis/standard-2.3/ienc-producer-codes.md)
-  * [IENC Presentation Library 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.1/README.md)
-    * [Look-up Tables 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.1/look-up-tables-2.1.md)
-    * [Symbols 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.1/symbols-2.1.md)
-    * [Conditional symbology procedures 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.1/conditional-symbology-procedures-2.1.md)
+  * [IENC Presentation Library 2.3](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/README.md)
+    * [Look-up Tables 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/look-up-tables-2.1.md)
+    * [Symbols 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/symbols-2.1.md)
+    * [Conditional symbology procedures 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/conditional-symbology-procedures-2.1.md)
 
