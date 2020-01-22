@@ -15,5 +15,3 @@ The Inland ECDIS Presentation Library provides five look-up tables:
 
 {% file src="../../../.gitbook/assets/ienc23\_lookuptables.zip" caption="Look-up tables Ed 2.3 \(zip\)" %}
 
-{% file src="../../../.gitbook/assets/enc\_root.zip" caption="Test cell for Edition 2.3 \(zip\)" %}
-
