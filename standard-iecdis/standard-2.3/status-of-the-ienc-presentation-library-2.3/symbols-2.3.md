@@ -1,4 +1,4 @@
-# Symbols 2.1
+# Symbols 2.3
 
 Symbols can be defined in vector format or in raster format. Symbols which will be rotated must be defined in vector format. The size of vector symbols is adapted automatically to the resolution and size of the screen. In case of raster symbols, different symbol sets must be designed to meet the requirements of a readable display.
 

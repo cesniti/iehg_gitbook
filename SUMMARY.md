@@ -11,6 +11,6 @@
   * [IENC Producer and Waterway Codes](standard-iecdis/standard-2.3/ienc-producer-codes.md)
   * [IENC Presentation Library 2.3](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/README.md)
     * [Look-up Tables 2.3](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/look-up-tables-2.3.md)
-    * [Symbols 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/symbols-2.1.md)
+    * [Symbols 2.3](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/symbols-2.3.md)
     * [Conditional symbology procedures 2.1](standard-iecdis/standard-2.3/status-of-the-ienc-presentation-library-2.3/conditional-symbology-procedures-2.1.md)
 
