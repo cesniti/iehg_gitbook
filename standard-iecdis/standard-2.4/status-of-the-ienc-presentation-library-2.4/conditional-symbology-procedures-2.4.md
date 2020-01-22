@@ -1,4 +1,4 @@
-# Conditional symbology procedures 2.3
+# Conditional symbology procedures 2.4
 
 Conditional symbology procedures \(CS\) are generated for features of which the symbolization
 
