@@ -18,7 +18,7 @@ fnctnm5 &gt; NOTMRK03
 
 {% file src="../../../.gitbook/assets/inland\_ecdis\_preslib\_2\_3.pdf" caption="Presentation Library for Inland ECDIS Ed 2.3 \(pdf\)" %}
 
-{% file src="../../../.gitbook/assets/correction\_preslib.pdf" caption="Correction to PresLib Ed.2.1 \(pdf, 10 kB\)" %}
+{% file src="../../../.gitbook/assets/correction\_preslib.pdf" caption="Correction to PresLib Ed 2.3 \(pdf\)" %}
 
 
 
