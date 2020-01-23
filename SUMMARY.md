@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Home](README.md)
+* [How to ?](README.md)
+* [backup of home page](backup-of-home-page.md)
 
 ## Standard Inland ECDIS <a id="standard-iecdis"></a>
 
