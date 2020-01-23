@@ -1,5 +1,5 @@
 ---
-description: Welcome to the Inland ECDIS standard
+description: Welcome to the Inland ECDIS Standard
 ---
 
 # How to ?
@@ -20,7 +20,7 @@ The [discussion forum of IEHG](https://iehg.centralus.cloudapp.azure.com/login) 
 
 ## Content
 
-If you want to know more about the ECDIS Standard Edition x.x :
+If you want to know more about the ECDIS Standard Edition 2.4 :
 
 {% page-ref page="standard-iecdis/standard-2.4/" %}
 
