@@ -24,3 +24,9 @@ You can access to all ECDIS standard editions on the Inland ECDIS [Standard docu
 
 The [discussion forum of IEHG](https://iehg.centralus.cloudapp.azure.com/login) is used as a sharing portal for the members, following the link you can sign up and follow the discussions or submit a change request \(IEHG discussion forum in the top menu\).
 
+## Access the ECDIS Standard
+
+If you want to know more about the ECDIS Standard Edition 2.4 :
+
+{% page-ref page="standard-iecdis/standard-2.4/" %}
+
