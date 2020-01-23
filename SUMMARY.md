@@ -1,7 +1,6 @@
 # Table of contents
 
 * [How to ?](README.md)
-* [backup of home page](backup-of-home-page.md)
 
 ## Standard Inland ECDIS <a id="standard-iecdis"></a>
 
@@ -17,4 +16,5 @@
   * [Product Specification for bathymetric Inland ENCs](standard-iecdis/standard-2.4/bienc-prodspec-24/README.md)
     * [bIENC Feature Catalogue 1.0](standard-iecdis/standard-2.4/bienc-prodspec-24/bienc-fc-10.md)
 * [S-401, the future Product Specification for Inland ENCs](s-401.md)
+* [backup of home page](backup-of-home-page.md)
 
