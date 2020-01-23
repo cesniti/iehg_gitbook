@@ -30,7 +30,3 @@ If you want to know more about the ECDIS Standard Edition 2.4 :
 
 {% page-ref page="standard-iecdis/standard-2.4/" %}
 
-![](.gitbook/assets/editions-crop-to-gif.gif)
-
-
-
