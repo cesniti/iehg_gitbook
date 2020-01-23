@@ -4,7 +4,7 @@
 
 Edition 2.2 is based on edition 2.2.0 of the Encoding Guide for Inland ENCs, which has been adopted by the Inland ENC Harmonization Group. The main target group was South America.
 
-* [Edition 2.2 of the Product Specification for Inland ENCs including edition 2.2.0 of the Encoding Guide](ienc-product-specification-2.2/)
+* [Edition 2.2 of the Product Specification for Inland ENCs](ienc-product-specification-2.2/)
 
 
 
