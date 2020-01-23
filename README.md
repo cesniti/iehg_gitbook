@@ -8,7 +8,7 @@ description: Welcome to the Inland ECDIS Standard
 
 ![](.gitbook/assets/editions-crop-to-gif.gif)
 
-## Find the right concent in the IEHG documentation
+## Find concent in the IEHG documentation
 
 On devices with a small display \(e.g. smartphones\) please open the menu and choose the edition as shown above.
 
