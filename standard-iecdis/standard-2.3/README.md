@@ -12,7 +12,7 @@ The status of codes for Producers and Waterways and edition 2.3 of the Presentat
 
 The Appendix consists of:
 
-* [Edition 2.3 corr2 of the Product Specification for Inland ENCs \(to Section 2\)](ienc-product-specification-2.3/) \(For Europe, Russia, North and South America\)
+* [Edition 2.3 corr2 of the Product Specification for Inland ENCs \(to Section 2\) including edition 2.3.6 of the Encoding Guide](ienc-product-specification-2.3/) \(For Europe, Russia, North and South America\)
 * [Status of Codes for Producers and Waterways \(to Section 2a\)](https://ienc.gitbook.io/ienc-main/status-of-codes-for-producers-and-waterways) \(only for Europe and Russia\)
 * [Edition 2.3 of the Presentation Library \(to Section 3\)](status-of-the-ienc-presentation-library-2.3/) \(only for Europe and Russia\)
 
