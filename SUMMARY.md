@@ -1,6 +1,6 @@
 # Table of contents
 
-* [How to](README.md)
+* [How to?](README.md)
 
 ## Standard Inland ECDIS <a id="standard-iecdis"></a>
 

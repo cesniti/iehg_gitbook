@@ -2,7 +2,7 @@
 description: Welcome to the Inland ECDIS page of the Open ECDIS Forum!
 ---
 
-# How to
+# How to?
 
 ## Structure of the IEHG documentation
 
