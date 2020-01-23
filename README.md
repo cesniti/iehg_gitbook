@@ -1,5 +1,5 @@
 ---
-description: Welcome to the Inland ECDIS Standard
+description: Welcome to the Inland ECDIS Standard documentation
 ---
 
 # How to ?
