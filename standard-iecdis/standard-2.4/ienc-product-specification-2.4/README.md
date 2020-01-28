@@ -15,7 +15,7 @@ The attributes 18020 lc\_lg1, 18018 lc\_bm1 and 18019 lc\_bm2 have been deleted 
 
 {% file src="../../../.gitbook/assets/prodspec\_ienc\_2\_4\_trackchanges.pdf" caption="Track changes version of the Product Specification \(pdf\)" %}
 
-{% file src="../../../.gitbook/assets/recommended\_inland\_enc\_validation\_checks\_2\_3corr1.pdf" caption="RVC \(still to be updated !!!!!!!!!\)" %}
+{% file src="../../../.gitbook/assets/2020-01-22\_recommended-inland-enc-validation-checks\_2\_4\_rev1.pdf" caption="Recommended Validation Checks 2.4 rev1" %}
 
 
 
