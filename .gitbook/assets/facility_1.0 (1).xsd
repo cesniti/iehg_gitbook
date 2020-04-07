@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2013 (x64) (http://www.altova.com) von Gertraud Widder (BMVIT) bearbeitet -->
+<xs:schema xmlns="http://www.openecdis.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.openecdis.org/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<!-- COPYRIGHT -->
+	<xs:annotation>
+		<xs:documentation>Copyright 2014 IEHG</xs:documentation>
+	</xs:annotation>
+	<!-- ROOT ELEMENT FACILITY -->
+	<xs:element name="facility">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="version" type="xs:positiveInteger" minOccurs="0"/>
+				<xs:element name="last_edited" type="xs:string" minOccurs="0"/>
+				<xs:element name="id" type="xs:string" minOccurs="0"/>
+				<xs:element name="name" type="xs:string" minOccurs="0"/>
+				<xs:element name="type" type="TFacilityType" minOccurs="0"/>
+				<xs:element name="image" type="xs:anyURI" minOccurs="0"/>
+				<xs:element name="description" type="xs:string" minOccurs="0"/>
+				<xs:element name="operator" type="xs:string" minOccurs="0"/>
+				<xs:element name="owner" type="xs:string" minOccurs="0"/>
+				<!-- COMMUNICATION INFORMATION -->
+				<xs:element name="communication_information" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="address" type="TAddress" minOccurs="0"/>
+							<xs:element name="contact" type="TContact" minOccurs="0" maxOccurs="unbounded"/>
+							<xs:element name="radio_communication" type="TRadioCommunication" minOccurs="0"/>
+							<xs:element name="remark" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<!-- TIME SCHEDULE -->
+				<xs:element name="time_schedule" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="type" minOccurs="0">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:enumeration value="Operation"/>
+										<xs:enumeration value="No Operation"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="valid" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="from" type="xs:date"/>
+										<xs:element name="to" type="xs:date"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="individual_schedule" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="day" type="TDay" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="regular_schedule" minOccurs="0">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="period" type="TPeriod" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="remark" type="xs:string" minOccurs="0"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<!-- GROUPS ============================================ -->
+	<xs:group name="telecommunication">
+		<xs:choice>
+			<xs:element name="phone" type="xs:string"/>
+			<xs:element name="mobile" type="xs:string"/>
+			<xs:element name="fax" type="xs:string"/>
+			<xs:element name="email" type="xs:string"/>
+			<xs:element name="url" type="xs:anyURI"/>
+		</xs:choice>
+	</xs:group>
+	<!-- SIMPLE TYPES ========================================= -->
+	<xs:simpleType name="TFacilityType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Lock"/>
+			<xs:enumeration value="Bridge"/>
+			<xs:enumeration value="Port Facility"/>
+			<xs:enumeration value="Other"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- COMPLEX TYPES ======================================== -->
+	<xs:complexType name="TAddress">
+		<xs:sequence>
+			<xs:element name="street" type="xs:string" minOccurs="0"/>
+			<xs:element name="postcode" type="xs:string" minOccurs="0"/>
+			<xs:element name="city" type="xs:string" minOccurs="0"/>
+			<xs:element name="state" type="xs:string" minOccurs="0"/>
+			<xs:element name="country" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TContact">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" minOccurs="0"/>
+			<xs:group ref="telecommunication" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="remark" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TRadioCommunication">
+		<xs:sequence>
+			<xs:element name="calling_name" type="xs:string" minOccurs="0"/>
+			<xs:element name="call_sign" type="xs:string" minOccurs="0"/>
+			<xs:element name="channel" type="xs:positiveInteger" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TTimeFrame">
+		<xs:sequence>
+			<xs:element name="start" type="xs:string"/>
+			<xs:element name="end" type="xs:string"/>
+			<xs:element name="remark" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:simpleType name="TDays">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Monday"/>
+			<xs:enumeration value="Tuesday"/>
+			<xs:enumeration value="Wednesday"/>
+			<xs:enumeration value="Thursday"/>
+			<xs:enumeration value="Friday"/>
+			<xs:enumeration value="Saturday"/>
+			<xs:enumeration value="Sunday"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TListDays">
+		<xs:list itemType="TDays"/>
+	</xs:simpleType>
+	<xs:complexType name="TPeriod">
+		<xs:sequence>
+			<xs:element name="from" type="xs:date"/>
+			<xs:element name="to" type="xs:date"/>
+			<xs:element name="days_with_common_schedule" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="name_of_days" type="TListDays"/>
+						<xs:element name="time_frame" type="TTimeFrame" maxOccurs="unbounded"/>
+						<xs:element name="remark" type="xs:string" minOccurs="0"/>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TDay">
+		<xs:sequence>
+			<xs:element name="date" type="xs:date"/>
+			<xs:element name="time_frame" type="TTimeFrame" maxOccurs="unbounded"/>
+			<xs:element name="remark" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
