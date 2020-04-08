@@ -14,10 +14,6 @@ In addition the catalogue contains feature-attribute bindings specific to IENCs.
 
 The Inland ENC Feature Catalogue has been adopted by the Inland ENC Harmonization Group \(IEHG\) and is applicable in North and South America, Russia and Europe. It is intended, that the Feature Catalogue meets the basic needs for Inland ENC applications worldwide.
 
-{% hint style="warning" %}
-The first version of the Feature Catalogue had a typing error in the enumeration of "LITCHR\_18" \(long-flash alternating\). The value "189" had been incorrectly entered. This error has been corrected in the corr1 of the Fetaure Catalogue. Several numerical identifiers of elements had to be corrected to ensure backward compatibility. This error has been corrected in the corr2 of the Feature Catalogue.
-{% endhint %}
-
 {% file src="../../../.gitbook/assets/ienc\_fc\_2.5 \(1\).pdf" caption="Inland ENC Feature Catalogue Ed 2.5 \(pdf\)" %}
 
 {% file src="../../../.gitbook/assets/ienc\_fc\_25.xml" caption="Inland ENC Feature Catalogue Ed 2. \(xml\)" %}
