@@ -20,3 +20,5 @@ The first version of the Feature Catalogue had a typing error in the enumeration
 
 {% file src="../../../.gitbook/assets/ienc\_fc\_2.5 \(1\).pdf" caption="Inland ENC Feature Catalogue Ed 2.5 \(pdf\)" %}
 
+{% file src="../../../.gitbook/assets/ienc\_fc\_25.xml" caption="Inland ENC Feature Catalogue Ed 2. \(xml\)" %}
+
