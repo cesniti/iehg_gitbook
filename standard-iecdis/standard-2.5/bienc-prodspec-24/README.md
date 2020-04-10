@@ -13,7 +13,7 @@ The Product Specification for bathymetric Inland ENCs is a set of specifications
 A bathymetric Inland ENC must be produced in accordance with the rules defined in this Specification and must be encoded using:
 
 * the bathymetric Inland ENC Feature Catalogue and
-* the rules described in the [Inland ENC Encoding Guide](../ienc-product-specification-2.4/ienc-encoding-guide-2.3.6.md)
+* the rules described in the [Inland ENC Encoding Guide](../ienc-product-specification-2.5/ienc-encoding-guide-2.3.6.md)
 
 The Inland ENC Product Specification has been adopted by the Inland ENC Harmonization Group \(IEHG\) and is applicable in North and South America, Russia, Europe and Asia. It is intended, that the Product Specification meets the basic needs for Inland ENC applications worldwide.
 
