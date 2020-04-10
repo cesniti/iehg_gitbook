@@ -10,7 +10,7 @@
     * [IENC Encoding Guide 2.5.0](standard-iecdis/standard-2.5/ienc-product-specification-2.5/ienc-encoding-guide-2.5.0.md)
   * [IENC Producer and Waterway Codes](standard-iecdis/standard-2.5/ienc-producer-codes.md)
   * [IENC Presentation Library 2.5](standard-iecdis/standard-2.5/status-of-the-ienc-presentation-library-2.5/README.md)
-    * [Look-up Tables 2.5](standard-iecdis/standard-2.5/status-of-the-ienc-presentation-library-2.5/look-up-tables-2.5.md)
+    * [Look-up Tables 2.5](standard-iecdis/standard-2.5/status-of-the-ienc-presentation-library-2.5/look-up-tables-2.4.md)
     * [Symbols 2.5](standard-iecdis/standard-2.5/status-of-the-ienc-presentation-library-2.5/symbols-2.4.md)
     * [Conditional symbology procedures 2.5](standard-iecdis/standard-2.5/status-of-the-ienc-presentation-library-2.5/conditional-symbology-procedures-2.4.md)
   * [Product Specification for bathymetric Inland ENCs](standard-iecdis/standard-2.5/bienc-prodspec-24/README.md)
