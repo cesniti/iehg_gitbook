@@ -21,5 +21,7 @@ An XML editor for the production of the external xml-files that are mentioned in
 The username and password can be obtained by e-mail from ienc\(a\)viadonau.org  
 Please note that the editor uses the latest edition of the XSD.
 
-
+{% hint style="info" %}
+The facility editor is at the moment not available.
+{% endhint %}
 
