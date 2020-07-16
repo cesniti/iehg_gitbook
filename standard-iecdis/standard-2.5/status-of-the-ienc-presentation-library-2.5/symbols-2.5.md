@@ -5,10 +5,12 @@ Symbols can be defined in vector format or in raster format. Symbols which will 
 The Inland ECDIS Symbols are defined as raster symbols except those which have to be rotated. The format is according to S-52.
 
 {% hint style="info" %}
-Edition 2.5 of the Symbol Library is still under development.
+The draft of Edition 2.5 of the Symbol Library has been adopted by the Temporary Working Group Inland ECDIS of CESNI, the \(Comité Européen pour l’Élaboration de Standards dans le Domaine de Navigation Intérieure\). Formal adoption by CESNI and publication is pending.
 {% endhint %}
 
-{% file src="../../../.gitbook/assets/ies\_symbols\_2\_4.zip" caption="Symbols Ed 2.4 \(zip\)" %}
+{% file src="../../../.gitbook/assets/symbols-ed-2.5.zip" caption="Symbol Library for Inland ECDIS, edition 2.5" %}
+
+
 
 
 
