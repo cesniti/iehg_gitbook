@@ -14,8 +14,10 @@ The Inland ECDIS Presentation Library provides five look-up tables:
 * symbolized area boundary symbols
 
 {% hint style="info" %}
-Edition 2.5 of the Look-up Tables is still under development.
+The draft of Edition 2.5 of the Look-up Tables has been adopted by the Temporary Working Group Inland ECDIS of CESNI, the \(Comité Européen pour l’Élaboration de Standards dans le Domaine de Navigation Intérieure\). Formal adoption by CESNI and publication is pending.
 {% endhint %}
 
-{% file src="../../../.gitbook/assets/ies\_2\_4\_lookuptables.zip" caption="Look-up Tables Ed 2.4 \(zip\)" %}
+{% file src="../../../.gitbook/assets/symbols-ed-2.5.zip" caption="Symbol Library for Inland ECDIS, edition 2.5" %}
+
+
 
