@@ -8,9 +8,7 @@ The Inland ECDIS Symbols are defined as raster symbols except those which have t
 The draft of Edition 2.5 of the Symbol Library has been adopted by the Temporary Working Group Inland ECDIS of CESNI \(Comité Européen pour l’Élaboration de Standards dans le Domaine de Navigation Intérieure\). Formal adoption by CESNI and publication is pending.
 {% endhint %}
 
-{% file src="../../../.gitbook/assets/symbols-ed-2.5 \(1\).zip" %}
-
-
+{% file src="../../../.gitbook/assets/ies\_symbols\_2\_5.zip" caption="Symbols Edition 2.5" %}
 
 
 
