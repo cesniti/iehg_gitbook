@@ -1,4 +1,4 @@
-# IENC Encoding Guide 2.5.0
+# IENC Encoding Guide 2.5.1
 
 The IENC Encoding Guide was developed by the Inland ENC Harmonization Group \(IEHG\).  
 The intent of the document is to provide detailed guidance on what is required to produce a consistent, uniform Inland ENC.
