@@ -11,7 +11,7 @@ For all object classes, attributes, and attribute values that are used in conjun
 
 The Inland ENC Encoding Guide is applicable in North and South America, Russia and Europe. It is intended, that the IENC Encoding Guide meets the basic needs for Inland ENC applications worldwide.
 
-Version 2.5.1, which has been adopted by IEHG on 22nd March 2021, is containing corrections of some errors.
+Version 2.5.1, which has been adopted by IEHG on 16th April 2021, is containing corrections of some errors.
 
 {% file src="../../../.gitbook/assets/encoding\_guide\_2.5.1.pdf" caption="Encoding Guide for Inland ENCs Ed 2.5.1 \(pdf\)" %}
 
